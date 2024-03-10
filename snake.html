@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: monospace;
+            white-space: pre;
+            background-color: black;
+            color: #00FF00; /* Green text */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function snakeEffect() {
+            const snake = `
+                ____
+               /  ( \\
+              /   _ \\/|
+              \\_____/
+                _|_|_
+            `;
+            const snakeLines = snake.split('\n');
+            let frame = 0;
+
+            function updateFrame() {
+                document.body.textContent = '';
+                for (let i = 0; i < snakeLines.length; i++) {
+                    document.body.innerHTML += snakeLines[i].substring(frame) + '\n';
+                }
+                frame = (frame + 1) % snakeLines[0].length;
+            }
+
+            setInterval(updateFrame, 100);
+        }
+
+        snakeEffect();
+    </script>
+</body>
+</html>
