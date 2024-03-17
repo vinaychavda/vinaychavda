@@ -3,7 +3,7 @@
 a passionate Data Science Master's student at FAU Erlangen and a dedicated tech enthusiast. Currently, I'm leveraging my skills as a student at Infineon Technology, where I contribute to cutting-edge projects.
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/vinaychavdaappdev)
-[![GitHub followers](https://img.shields.io/github/followers/vinaychavda?label=Follow&style=social)](https://github.com/vinaychavda)
+//[![GitHub followers](https://img.shields.io/github/followers/vinaychavda?label=Follow&style=social)](https://github.com/vinaychavda)
 
 ## 🚀 Background
 
